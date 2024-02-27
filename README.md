@@ -7,12 +7,12 @@ Home: https://github.com/maddenp/iotaa
 
 Package license: Apache-2.0
 
-Summary: A Tiny Workflow Manager
+Summary: A Simple Workflow Engine
 
 Documentation: https://github.com/maddenp/iotaa/README.md
 
-A tiny workflow manager with semantics inspired by Luigi, with tasks defined
-as decorated Python functions.
+A simple workflow engine with semantics inspired by Luigi and tasks
+expressed as decorated Python functions
 
 
 Current build status
