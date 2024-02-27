@@ -13,7 +13,7 @@ build:
   entry_points:
     - iotaa = iotaa:main
   noarch: python
-  number: 0
+  number: {{ build }}
 
 requirements:
   host:
