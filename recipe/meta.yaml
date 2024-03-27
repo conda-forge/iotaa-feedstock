@@ -1,4 +1,4 @@
-{% set version = "0.7.4" %}
+{% set version = "0.7.5" %}
 {% set build = 0 %}
 
 package:
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/maddenp/iotaa/archive/refs/tags/v{{ version }}-{{ build }}.tar.gz
-  sha256: a1afca7608cf169bc893236b8d43b019561dc20ed5ac9c33ecd9c7243bfe668a
+  sha256: 8f7d31b0787a0a5c759af76fb3972ae6c4fdf5a5e9693f0f9b4e63f3d83b1c90
 
 build:
   entry_points:
