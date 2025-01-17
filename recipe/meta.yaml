@@ -1,13 +1,13 @@
-{% set version = "0.8.3" %}
+{% set version = "1.0.0-0" %}
 {% set build = 0 %}
 
 package:
   name: iotaa
-  version: {{ version }}
+  version: {{ version.split("-")[0] }}
 
 source:
-  url: https://github.com/maddenp/iotaa/archive/refs/tags/v{{ version }}-{{ build }}.tar.gz
-  sha256: d92bf7a1a41f46987effb7aeeacc12b1fc7dbe8bbaedda8ec71dcf188e5d05bb
+  url: https://github.com/maddenp/iotaa/archive/refs/tags/v{{ version.split("-")[0] }}-{{ build }}.tar.gz
+  sha256: 05ade61065b30eed6222ae83f162e2f7ea147bcd29f6c29663bdc635ac0f7e23
 
 build:
   entry_points:
