@@ -1,6 +1,6 @@
 {% set build = 0 %}
 {% set python_min = "3.9" %}
-{% set version = "1.0.0-0" %}
+{% set version = "1.1.0-0" %}
 
 package:
   name: iotaa
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://github.com/maddenp/iotaa/archive/refs/tags/v{{ version.split("-")[0] }}-{{ build }}.tar.gz
-  sha256: 05ade61065b30eed6222ae83f162e2f7ea147bcd29f6c29663bdc635ac0f7e23
+  sha256: c097ae625dada6adfd842e087a14106363bf8c6f9a564a61c24eb54c488ca986
 
 build:
   entry_points:
