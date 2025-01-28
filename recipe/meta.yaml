@@ -29,6 +29,7 @@ test:
     - iotaa
   requires:
     - pip
+    - pyfakefs
     - pytest
     - python {{ python_min }}
   commands:
