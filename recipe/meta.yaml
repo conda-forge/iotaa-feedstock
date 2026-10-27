@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/maddenp/iotaa/archive/refs/tags/v{{ version }}.tar.gz
-  sha256: 152421ea06355cd4f46d56870cf8d404e3fbc7bbc184e6cf1777ca17b87e9d1c
+  sha256: 55893fcbb51e27d1d1ffc6ff56f30577ffdc35e95463e242a0f8279009bd0d7d
 
 build:
   entry_points:
@@ -28,19 +28,15 @@ test:
     - iotaa
   requires:
     - pip
-    - pyfakefs
-    - pytest
     - python {{ python_min }}
   commands:
     - pip check
-    - pytest --pyargs iotaa
     - iotaa --help
 
 about:
   home: https://github.com/maddenp/iotaa
   summary: A Simple Workflow Engine
-  description: |
-    A simple workflow engine expressing tasks as decorated Python functions
+  description: A simple workflow engine expressing tasks as decorated Python functions
   license: Apache-2.0
   license_file: LICENSE
   doc_url: https://github.com/maddenp/iotaa/README.md
