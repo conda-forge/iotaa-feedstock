@@ -1,4 +1,2 @@
 set -eux
-rm -rf recipe
-cd src
-$PYTHON -m pip install . -vv
+$PYTHON -m pip install -vv .
