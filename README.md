@@ -11,8 +11,7 @@ Summary: A Simple Workflow Engine
 
 Documentation: https://github.com/maddenp/iotaa/README.md
 
-A simple workflow engine with tasks expressed as decorated Python functions
-
+A simple workflow engine expressing tasks as decorated Python functions
 
 Current build status
 ====================
@@ -126,8 +125,6 @@ mamba repoquery depends iotaa --channel conda-forge
 
 </details>
 
-
-
 About conda-forge
 =================
 
@@ -166,7 +163,6 @@ Terminology
 **conda-forge** - the place where the feedstock and smithy live and work to
                   produce the finished article (built conda distributions)
 
-
 Updating iotaa-feedstock
 ========================
 
@@ -193,4 +189,3 @@ Feedstock Maintainers
 =====================
 
 * [@maddenp](https://github.com/maddenp/)
-

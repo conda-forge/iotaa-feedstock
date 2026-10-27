@@ -40,7 +40,7 @@ about:
   home: https://github.com/maddenp/iotaa
   summary: A Simple Workflow Engine
   description: |
-    A simple workflow engine with tasks expressed as decorated Python functions
+    A simple workflow engine expressing tasks as decorated Python functions
   license: Apache-2.0
   license_file: LICENSE
   doc_url: https://github.com/maddenp/iotaa/README.md
