@@ -1,14 +1,14 @@
 {% set build = 0 %}
-{% set python_min = "3.10" %}
-{% set version = "1.7.0-0" %}
+{% set python_min = "3.11" %}
+{% set version = "1.8.1" %}
 
 package:
   name: iotaa
-  version: {{ version.split("-")[0] }}
+  version: {{ version }}
 
 source:
-  url: https://github.com/maddenp/iotaa/archive/refs/tags/v{{ version.split("-")[0] }}-{{ build }}.tar.gz
-  sha256: 186ca1f982ac8b499e7c55cd54de7572a2857a83910ece9cce56c13af42d4486
+  url: https://github.com/maddenp/iotaa/archive/refs/tags/v{{ version }}.tar.gz
+  sha256: 152421ea06355cd4f46d56870cf8d404e3fbc7bbc184e6cf1777ca17b87e9d1c
 
 build:
   entry_points:
@@ -41,8 +41,7 @@ about:
   home: https://github.com/maddenp/iotaa
   summary: A Simple Workflow Engine
   description: |
-    A simple workflow engine with semantics inspired by Luigi and tasks
-    expressed as decorated Python functions
+    A simple workflow engine with tasks expressed as decorated Python functions
   license: Apache-2.0
   license_file: LICENSE
   doc_url: https://github.com/maddenp/iotaa/README.md
